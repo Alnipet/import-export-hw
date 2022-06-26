@@ -3,7 +3,8 @@
 import './domain';
 
 export default class Game {
-  static start() {
+  // eslint-disable-next-line class-methods-use-this
+  start() {
     console.log('game started');
   }
 }
